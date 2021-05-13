@@ -53,29 +53,29 @@
   <ItemGroup>
     <Compile Include="Abstrack\IAboutDal.cs" />
     <Compile Include="Abstrack\ICategoryDal.cs" />
-    <Compile Include="Abstrack\ICategoryIstatisticDal.cs" />
+    <Compile Include="Abstrack\ICategoryStatisticDal.cs" />
     <Compile Include="Abstrack\IContactDal.cs" />
     <Compile Include="Abstrack\IContentDal.cs" />
     <Compile Include="Abstrack\IHeadingDal.cs" />
-    <Compile Include="Abstrack\IHeadingIstatisticDal.cs" />
-    <Compile Include="Abstrack\IIstatisticDal.cs" />
+    <Compile Include="Abstrack\IHeadingStatisticDal.cs" />
+    <Compile Include="Abstrack\IStatisticDal.cs" />
     <Compile Include="Abstrack\IRepository.cs" />
     <Compile Include="Abstrack\IWriterDal.cs" />
-    <Compile Include="Abstrack\IWriterIstatisticDal.cs" />
+    <Compile Include="Abstrack\IWriterStatisticDal.cs" />
     <Compile Include="Concrete\Repositories\CategoryRepository.cs" />
     <Compile Include="Concrete\Context.cs" />
     <Compile Include="Concrete\Repositories\GenericRepository.cs" />
-    <Compile Include="Concrete\Repositories\IstatisticRepository.cs" />
+    <Compile Include="Concrete\Repositories\StatisticRepository.cs" />
     <Compile Include="Concrete\Repositories\WriterRepository.cs" />
     <Compile Include="EntityFramework\EfAboutDal.cs" />
     <Compile Include="EntityFramework\EfCategoryDal.cs" />
     <Compile Include="EntityFramework\EfContactDal.cs" />
     <Compile Include="EntityFramework\EfContentDal.cs" />
     <Compile Include="EntityFramework\EfHeadingDal.cs" />
-    <Compile Include="EntityFramework\EfCategoryIstatisticDal.cs" />
-    <Compile Include="EntityFramework\EfHeadingIstatisticDal.cs" />
+    <Compile Include="EntityFramework\EfCategoryStatisticDal.cs" />
+    <Compile Include="EntityFramework\EfHeadingStatisticDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
-    <Compile Include="EntityFramework\EfWriterIstatisticDal.cs" />
+    <Compile Include="EntityFramework\EfWriterStatisticDal.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

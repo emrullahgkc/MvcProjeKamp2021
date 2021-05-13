@@ -10,9 +10,9 @@ namespace MvcProjeKamp.Controllers
 {
     public class IstatistikController : Controller
     {
-        CategoryIstatisticManager CIM = new CategoryIstatisticManager(new EfCategoryIstatisticDal()); 
-        HeadingIstatisticManager HIM = new HeadingIstatisticManager(new EfHeadingIstatisticDal());
-        WriterIstatisticManager WIM = new WriterIstatisticManager(new EfWriterIstatisticDal()); 
+        CategoryStatisticManager CIM = new CategoryStatisticManager(new EfCategoryStatisticDal()); 
+        HeadingStatisticManager HIM = new HeadingStatisticManager(new EfHeadingStatisticDal());
+        WriterStatisticManager WIM = new WriterStatisticManager(new EfWriterStatisticDal()); 
         public ActionResult Index()
         {
 

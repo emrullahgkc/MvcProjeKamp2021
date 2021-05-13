@@ -54,16 +54,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\ICategoryIstatisticService.cs" />
+    <Compile Include="Abstract\ICategoryStatisticService.cs" />
     <Compile Include="Abstract\ICategoryService.cs" />
-    <Compile Include="Abstract\IHeadingIstatisticService.cs" />
-    <Compile Include="Abstract\IIstatisticService.cs" />
-    <Compile Include="Abstract\IWriterIstatisticService.cs" />
+    <Compile Include="Abstract\IHeadingStatisticService.cs" />
+    <Compile Include="Abstract\IStatisticService.cs" />
+    <Compile Include="Abstract\IWriterStatisticService.cs" />
     <Compile Include="Concrete\CategoryManager.cs" />
-    <Compile Include="Concrete\CategoryIstatisticManager.cs" />
-    <Compile Include="Concrete\HeadingIstatisticManager.cs" />
-    <Compile Include="Concrete\IstatisticGenericManager.cs" />
-    <Compile Include="Concrete\WriterIstatisticManager.cs" />
+    <Compile Include="Concrete\CategoryStatisticManager.cs" />
+    <Compile Include="Concrete\HeadingStatisticManager.cs" />
+    <Compile Include="Concrete\StatisticGenericManager.cs" />
+    <Compile Include="Concrete\WriterStatisticManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidationRules\CategoryValidator.cs" />
   </ItemGroup>
