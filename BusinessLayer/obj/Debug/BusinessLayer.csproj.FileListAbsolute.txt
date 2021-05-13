@@ -16,3 +16,5 @@ C:\Users\EmrullaH\source\repos\MvcProjeKamp\BusinessLayer\bin\Debug\DataAccessLa
 C:\Users\EmrullaH\source\repos\MvcProjeKamp\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
 C:\Users\EmrullaH\source\repos\MvcProjeKamp\BusinessLayer\bin\Debug\Entity.pdb
 C:\Users\EmrullaH\source\repos\MvcProjeKamp\BusinessLayer\bin\Debug\Entity.dll.config
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\BusinessLayer\bin\Debug\FluentValidation.xml

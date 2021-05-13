@@ -74,3 +74,14 @@ C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\EntityFramework.dll
 C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\EntityFramework.SqlServer.dll
 C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\EntityFramework.xml
 C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\EntityFramework.SqlServer.xml
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\BusinessLayer.dll
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\Entity.dll
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\DataAccessLayer.dll
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\BusinessLayer.pdb
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\BusinessLayer.dll.config
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\Entity.pdb
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\Entity.dll.config
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\DataAccessLayer.pdb
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\DataAccessLayer.dll.config
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\FluentValidation.dll
+C:\Users\EmrullaH\source\repos\MvcProjeKamp\MvcProjeKamp\bin\FluentValidation.xml

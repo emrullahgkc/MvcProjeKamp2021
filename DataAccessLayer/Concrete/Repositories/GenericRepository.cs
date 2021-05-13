@@ -25,6 +25,11 @@ namespace DataAccessLayer.Concrete.Repositories
             c.SaveChanges();
         }
 
+        public T Get(Expression<Func<T, bool>> filter)
+        {
+            return _object.SingleOrDefault(filter);
+        }
+
         public void Insert(T p)
         {
             _object.Add(p);
@@ -44,6 +49,8 @@ namespace DataAccessLayer.Concrete.Repositories
 
         public void Update(T p)
         {
+            var UpdateEntity = c.Entry(p);
+            UpdateEntity.State = EntityState.Modified;
             c.SaveChanges();
         }
     }

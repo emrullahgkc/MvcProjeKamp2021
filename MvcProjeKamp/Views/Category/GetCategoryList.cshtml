@@ -1,0 +1,49 @@
+﻿@using Entity.Concrete
+@model List<Category>
+@*@model IEnumerable<Entity.Concrete.Category>*@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetCategoryList</title>
+</head>
+<body>
+    <br />
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table table-hover table-striped">
+        <tr>
+            <th>ID</th>
+            <th>Ad</th>
+            <th>Açıklama</th>
+            <th>Durum</th>
+            <th>İşlem</th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>@item.CategoryID</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryDescription)
+            </td>
+            <td>
+                @Html.DisplayTextFor(modelItem => item.CategoryStatus)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    }
+    
+    </table>
+    <br />
+    <a href="/Category/AddCategory" class="btn btn-info">Yeni Kategory</a>
+</body>
+</html>

@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    .box {
+        width: 300px;
+        height:100px;
+        margin-bottom: 2%;
+        margin-right: 1%;
+        padding: 0.8em 1.5em;
+        float: left;
+    }
+
+        .box h3 {
+            color: #fff;
+            text-align: center;
+            font-size: 2.0em;
+            font-weight: 300;
+        }
+
+        .box p {
+/*            float: left;
+*/            color: #fff;
+            font-size: 0.8em;
+            font-weight: 200;
+        }
+
+  
+
+
+  
+</style>
+<br />
+
+                      
+<div class="row">
+    <div class="col-md-12"  style="margin:auto">
+            <button class=" box col-md-2 col-sm-4" style="display:inline-block;border:none;background-color:#FFC312">
+                <div class=" dashboard text-white o-hidden h-100">
+
+                    <div class="icon-text" style="text-align:center">
+                        <h3>@ViewBag.catSayi</h3>
+                        <p>Kategori  Sayısı</p>
+
+                    </div>
+
+
+                </div>
+            </button>
+   
+        <button class="box col-md-2 col-sm-4" style="display:inline-block;background-color:#12CBC4;border:none;">
+            <div class="  dashboard text-white o-hidden h-100">
+
+                <div class="icon-text" style="text-align:center">
+                    <h3>@ViewBag.yazilimAd</h3>
+                    <p>Yazılım Kat. Ait Başlık Sayısı</p>
+
+                </div>
+
+
+            </div>
+        </button>
+
+        <button class="box col-md-2 col-sm-4" style="display:inline-block;border:none;background-color:#EE5A24">
+            <div class="  dashboard text-white o-hidden h-100">
+
+                <div class="icon-text" style="text-align:center">
+                    <h3>@ViewBag.harf</h3>
+                    <p>A Harfli Geçen Yazar Sayısı</p>
+
+                </div>
+
+
+            </div>
+        </button>
+
+        <button class="box col-md-2 col-sm-4" style="display:inline-block;border:none;background-color:#009432">
+            <div class="  dashboard text-white o-hidden h-100">
+
+                <div class="icon-text" style="text-align:center">
+                    <h3>@ViewBag.maxCat</h3>
+                    <p>En Fazla Başlığa Sahip Kat.</p>
+
+                </div>
+
+
+            </div>
+        </button>
+        <button class="box col-md-2 col-sm-4" style="display:inline-block;border:none;background-color:#9980FA">
+            <div class="  dashboard text-white o-hidden h-100">
+
+                <div class="icon-text" style="text-align:center">
+                    <h3>@ViewBag.catAktif</h3>
+                    <p>Aktif Kategori Sayısı</p>
+
+                </div>
+
+
+            </div>
+        </button>
+        <button class="box col-md-2 col-sm-4" style="display:inline-block;border:none;background-color:#5758BB">
+            <div class="  dashboard text-white o-hidden h-100">
+
+                <div class="icon-text" style="text-align:center">
+                    <h3>@ViewBag.catPasif</h3>
+                    <p>Pasif Kategori Sayısı</p>
+
+                </div>
+
+
+            </div>
+        </button>
+        <button class="box col-md-2 col-sm-4" style="display:inline-block;border:none;background-color:#6F1E51">
+            <div class="  dashboard text-white o-hidden h-100">
+
+                <div class="icon-text" style="text-align:center">
+                    <h3>@ViewBag.catFark</h3>
+                    <p>Kategori Durum Farkı</p>
+
+                </div>
+
+
+            </div>
+        </button>
+    </div>
+</div>
